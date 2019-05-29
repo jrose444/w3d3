@@ -1,0 +1,42 @@
+h2 + .user_review {
+    border-top: none;
+}
+
+header > img {
+  width: inherit;
+}
+
+body ,
+h1 ,
+h2 ,
+ul li a, 
+figcaption a ,
+header > img ,
+.ingredients-list ,
+ol ,
+.user_review h4 ,
+input[type="radio"] ,
+input[type="radio"]:checked ,
+input:last-child ,
+input:last-child:hover ,
+ol li:nth-of-type(2n) ,
+h2 + .user_review {
+  margin: 0;
+	padding: 0;
+	border: 0;
+  font: inherit;
+} 
+
+
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1.5;
+
+}
